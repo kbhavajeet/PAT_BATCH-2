@@ -1,0 +1,65 @@
+DOM(document object model)
+BOM(browser object model)   :
+	object to control the browser's activity..
+	JS(BOM)..the websites(youtube) still loads when network is not connected..(but videos are not visible)
+	this is for the user experience and easy access	
+	
+
+JS (changes on browers)
+
+document.getElementById()
+	gets the element 
+document.getElementsByClassName()
+	all the elements (array of elements) under the class name
+document.getElementsByTagName()	
+	all the elements of that respective tag
+document.getElementsByName()
+	for form elements we give names,
+	gives the list of elements of that name
+User events:
+	click
+	scroll
+	drag and drop
+
+	
+website   ---->   API  --->   middleware  ---> Db
+          <----        <----              <----
+
+3 layers of validation:
+1. html
+2. js
+3. middle ware
+
+why 3 layers????????????????????????????
+
+
+
+dom manipulation
+html,,,js 
+var fname=document.getElementById("fname")
+fname
+fname.value="some random name"
+fname
+
+
+
+========================================================
+sync and async programming in js
+
+
+promise: either does the task or doesnt do it completely
+success: resolve
+failure: reject
+
+
+
+the functions which are called after some delay or say the js automatically calls the function....callback functions
+
+fetch ..retuens promise
+res.json()...also returns promise
+res..response...
+res.json()...to read
+to handle success...then
+
+
+a
